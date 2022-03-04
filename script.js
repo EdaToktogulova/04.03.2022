@@ -38,5 +38,8 @@ document.querySelector('button').addEventListener('click', function() {
    clearTimeout(timeoutExample);
 });
 
+const span = document.querySelector('span');
+setInterval(() => {
+   span.textContent++;
+}, 1000);
 
-let timeoutId;
