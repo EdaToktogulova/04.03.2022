@@ -39,6 +39,4 @@ document.querySelector('button').addEventListener('click', function() {
 });
 
 
-const timeoutExample = setTimeout(function() {
-   document.querySelector('span').textContent = "Hi";
-});
+let timeoutId;
