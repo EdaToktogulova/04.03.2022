@@ -26,6 +26,9 @@ document.querySelector('#sort-descending').addEventListener('click', function() 
    displayList();
 });
 
-document.querySelector('#sort-ascending').addEventListener('click', function() {
-   
-});
+function sortAscending() {
+   list.sort((a,b) => a> b ? -1: 1);
+};
+
+
+
