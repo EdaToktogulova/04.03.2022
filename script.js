@@ -11,7 +11,11 @@ function displayList() {
 }
 
 function sortDescending() {
-   
+   list.forEach(item => {
+      const div = document.createElement('div');
+      div.textContent = item;
+      main.(div);
+   });
 }
 
 sortDescending();
