@@ -21,7 +21,11 @@ function sortDescending() {
       }
    });
 }
+document.querySelector('#sort-descending').addEventListener('click', function() {
+   sortDescending();
+   displayList();
+});
 
-sortDescending();
-displayList();
-
+document.querySelector('#sort-ascending').addEventListener('click', function() {
+   
+});
