@@ -25,7 +25,10 @@ function sortAscending() {
    list.sort((a,b) => a> b ? -1: 1);
 };
 function showOdd () {
-   return list.filter(item => % 2 != 0);
+   return list.filter(item => item % 2 != 0);
+}
+function showEven () {
+   return list.filter(item => item % 2 !=0);
 }
 
 displayList(list);
