@@ -28,7 +28,7 @@ function showOdd () {
    return list.filter(item => item % 2 != 0);
 }
 function showEven () {
-   return list.filter(item => item % 2 !=0);
+   return list.filter(item => item % 2 ==0);
 }
 
 displayList(list);
@@ -50,7 +50,7 @@ document.querySelector('#show-even').addEventListener('click', function() {
    displayList(showEven());
 });
 document.querySelector('#show-all').addEventListener('click', function() {
-   displayList(showAll());
+   displayList(list());
 });
 
 
