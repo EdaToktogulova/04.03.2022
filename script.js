@@ -41,7 +41,11 @@ document.querySelector('#sort-ascending').addEventListener('click', function() {
 document.querySelector('#show-odd').addEventListener('click', function() {
    displayList(showOdd());
 });
-
-
+document.querySelector('#show-even').addEventListener('click', function() {
+   displayList(showEven());
+});
+document.querySelector('#show-all').addEventListener('click', function() {
+   displayList(showAll());
+});
 
 
