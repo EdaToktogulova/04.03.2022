@@ -30,5 +30,7 @@ function sortAscending() {
    list.sort((a,b) => a> b ? -1: 1);
 };
 
-
+function sortOdd( {
+   
+});
 
